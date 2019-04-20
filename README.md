@@ -2,11 +2,14 @@
 
 ## Goal of the Project
 
-Build a Restaurant Reviews App that meets accessibility standards and provides a responsive user experience.
+For the Restaurant Reviews projects, you will incrementally convert a static webpage to a mobile-ready web application. In Stage Two, you will take the responsive, accessible design you built in Stage One and connect it to an external server. You’ll begin by using asynchronous JavaScript to request JSON data from the server. You’ll store data received from the server in an offline database using IndexedDB, which will create an app shell architecture. Finally, you’ll work to optimize your site to meet performance benchmarks, which you’ll test using Lighthouse.
 
-The original starter code can be found on [GitHub](https://github.com/udacity/mws-restaurant-stage-1)
-
-## Getting Started
+## Getting Started;
+To build the application:
+```
+npm i
+gulp
+```
 Clone or download the repository.
 Start up an HTTP server, you can use Python.
 
