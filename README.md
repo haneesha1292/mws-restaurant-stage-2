@@ -16,4 +16,4 @@ Using Python:
 python -m http.server 8000
 ```
 
-Open url [localhost:8000](localhost:8000) in your favorite browser.
+Open url [localhost:8000/build](localhost:8000/build) in your favorite browser.

@@ -36,7 +36,44 @@ if (workbox) {
   // specified resources, serving them from the cache by default.
   // In addition to precaching, the precacheAndRoute method sets up an implicit
   // cache-first handler.
-  workbox.precaching.precacheAndRoute([]);
+  workbox.precaching.precacheAndRoute([
+  {
+    "url": "css/styles.css",
+    "revision": "58edaaff537b9dc945022a2fb58881d1"
+  },
+  {
+    "url": "index.html",
+    "revision": "bd9f5a54260b41081f3431acc704bea3"
+  },
+  {
+    "url": "js/idb-bundle.min.js",
+    "revision": "efc7a7c7c586e358e48d55a9dd038c55"
+  },
+  {
+    "url": "js/main-bundle.min.js",
+    "revision": "2562f9baea60750daffcdc07d53e68e9"
+  },
+  {
+    "url": "js/resto-bundle.min.js",
+    "revision": "ecf9bc7e13f919de2df4de9df3f30e15"
+  },
+  {
+    "url": "restaurant.html",
+    "revision": "f9e37b4b5dd7307c07158dc3f578a5a5"
+  },
+  {
+    "url": "img/touch/homescreen-192.png",
+    "revision": "3c51341ad47db2f4f1fcae9ed396e95b"
+  },
+  {
+    "url": "img/touch/homescreen-512.png",
+    "revision": "192c0f01d43243007c75dfecea42fc98"
+  },
+  {
+    "url": "manifest.json",
+    "revision": "1a2f2dec4c652078f2bf037737c97a92"
+  }
+]);
 
   // Google Fonts
   // https://developers.google.com/web/tools/workbox/guides/common-recipes#google_fonts
